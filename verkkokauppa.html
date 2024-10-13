@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Timox Verkkokauppa – Innovatiiviset Sensoriratkaisut">
+    <title>Timox Verkkokauppa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('tausta.png'); /* Taustakuvaksi määritelty */
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+        }
+        .product-row {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        .product {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+            background-color: white;
+            border-radius: 10px;
+            flex: 1 1 250px;
+            max-width: 250px;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+        .product h3 {
+            margin: 10px 0;
+        }
+        .product p {
+            font-size: 18px;
+            color: #4CAF50;
+        }
+        .product button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        .product button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Timox Verkkokauppa – Innovatiiviset Sensoriratkaisut</h1>
+        <p>Tilaa helposti ja turvallisesti!</p>
+    </header>
+
+    <nav>
+    <a href="index.html">Etusivu</a>
+    <a href="#services">Palvelut</a>
+    <a href="#pricing">Hinnoittelu</a>
+    <a href="#testimonials">Asiakaskokemukset</a>
+    <a href="#contact">Ota Yhteyttä</a>
+</nav>
+
+
+    <section id="products">
+        <h2>Tuotteet</h2>
+
+        <div class="product-row">
+            <!-- Kassavahti -->
+            <div class="product">
+                <h3>Kassavahti</h3>
+                <img src="kassajuomavahti.png" alt="Kassavahti sensori">
+                <p>Hinta: 129,90 €</p>
+                <button>Lisää ostoskoriin</button>
+            </div>
+
+            <!-- Juomavahti -->
+            <div class="product">
+                <h3>Juomavahti</h3>
+                <img src="kassajuomavahti.png" alt="Juomavahti sensori">
+                <p>Hinta: 129,90 €</p>
+                <button>Lisää ostoskoriin</button>
+            </div>
+
+            <!-- Allasvahti -->
+            <div class="product">
+                <h3>Allasvahti</h3>
+                <img src="1Allasvahtisensori.png" alt="Allasvahti sensori">
+                <p>Hinta: 169,90 €</p>
+                <button>Lisää ostoskoriin</button>
+            </div>
+
+            <!-- Allasvahti kaapeli -->
+            <div class="product">
+                <h3>Allasvahti kaapeli</h3>
+                <img src="1mittajohto.png" alt="Allasvahti kaapeli">
+                <p>Hinta: 30,00 €</p>
+                <button>Lisää ostoskoriin</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Timox – Innovatiiviset Sensoriratkaisut. Kaikki oikeudet pidätetään.</p>
+    </footer>
+
+</body>
+</html>

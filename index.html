@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Timox – Innovatiiviset ratkaisut kaupan ja terveydenhuollon tehostamiseen.">
+    <title>Timox – Innovatiiviset Sensoriratkaisut</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('tausta.png');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Läpinäkyvä valkoinen tausta */
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .image-row {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .image-row img {
+            max-width: 45%;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .small-img {
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Timox – Innovatiiviset Sensoriratkaisut</h1>
+        <p>Tehosta kauppasi ja terveydenhuollon toimintaa kustannustehokkaasti.</p>
+    </header>
+
+   <nav>
+    <a href="#home">Etusivu</a>
+    <a href="#services">Palvelut</a>
+    <a href="#pricing">Hinnoittelu</a>
+    <a href="#testimonials">Asiakaskokemukset</a>
+    <a href="#contact">Ota Yhteyttä</a>
+    <a href="verkkokauppa.html">Verkkokauppaan</a> <!-- Tämä painike näkyy index-sivulla -->
+</nav>
+
+
+
+    <section id="home">
+        <h2>Tervetuloa Timoxin kotisivuille</h2>
+        <p>Timox on erikoistunut älykkäisiin sensoripohjaisiin ratkaisuihin, jotka parantavat liiketoiminnan turvallisuutta ja tehokkuutta. Tarjoamme ratkaisuja erityisesti kaupan ja terveydenhuollon toimijoille, kuten apteekeille ja eläinlääkäriasemille.</p>
+    </section>
+
+    <section id="services">
+        <h2>Palvelut</h2>
+
+        <!-- Kassavahti ja Juomavahti -->
+        <div class="image-row">
+            <div>
+                <h3>Kassavahti</h3>
+                <p>Kassavahti ilmoittaa, kun asiakas saapuu kassalle, jolloin voit reagoida nopeasti, vaikka olisit hyllyttämässä tai muualla kaupassa.</p>
+                <img src="kassajuomavahti.png" alt="Kassavahti sensori">
+                <img src="kassatytto.png" alt="Kassatyttö" style="width: 45%;">
+            </div>
+            <div>
+                <h3>Juomavahti</h3>
+                <p>Juomavahti valvoo alkoholiosastoa ja auttaa estämään varkauksia lähettämällä hälytyksen, kun asiakas astuu osastolle.</p>
+                <img src="kassajuomavahti.png" alt="Juomavahti sensori">
+                <img src="juomailmoitus.png" alt="Juomailmoitus" style="width: 45%;">
+            </div>
+        </div>
+
+        <!-- Allasvahti -->
+        <h3>Allasvahti</h3>
+        <p>Allasvahti seuraa jääkaappien ja pakastealtaiden lämpötiloja apteekeissa ja eläinlääkäriasemilla. Se varmistaa, että tuotteiden lämpötilat pysyvät optimaalisina, vähentäen hävikkiä ja varmistamalla turvallisuuden.</p>
+        <div style="display: flex; justify-content: space-around;">
+            <img src="A_chest-style_freezer_filled_with_colorful_ice_cre.png" alt="Arkkumallinen pakasteallas jäätelöillä" style="width: 300px;">
+            <img src="1Allasvahtisensori.png" alt="Allasvahti sensori" class="small-img">
+            <img src="1mittajohto.png" alt="Allasvahti mittajohto" class="small-img">
+        </div>
+    </section>
+
+    <section id="pricing">
+        <h2>Hinnoittelu</h2>
+        <h3>Kassavahti ja Juomavahti</h3>
+        <p>Myyntihinta: 129,90 € per sensori.<br>
+           Kuukausimaksu: 14,90 € per sensori.</p>
+        
+        <h3>Allasvahti</h3>
+        <p>Myyntihinta: 169,90 € per sensori.<br>
+           Kuukausimaksu: 14,90 € per sensori.<br>
+           Kaapelit: 30 €/kaapeli (oston hinta 7 €/kaapeli).</p>
+
+        <h3>Asennuspalvelu</h3>
+        <p>Paikan päällä: 48 €/h + matkakulut.<br>
+           Etäasennus videopuhelun avulla: 100 € kertamaksu (1 h).</p>
+    </section>
+
+    <section id="testimonials">
+        <h2>Asiakaskokemukset</h2>
+        <p>"Kassavahti on ollut korvaamaton apu asiakaspalvelussa, erityisesti kiireisinä aikoina. Palvelu on auttanut pitämään kauppamme toiminnan sujuvana." – Kauppias, Tampere</p>
+        <p>"Juomavahti on vähentänyt varkauksia alkoholiosastolla ja auttanut parantamaan turvallisuutta. Tämä on ollut suuri parannus kaupan arkeen." – Kauppaketju, Helsinki</p>
+    </section>
+
+    <section id="contact">
+        <h2>Ota Yhteyttä</h2>
+        <form>
+            <label for="name">Nimi:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Sähköpostiosoite:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Viesti:</label><br>
+            <textarea id="message" name="message"></textarea><br><br>
+            <input type="submit" value="Lähetä">
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Timox – Innovatiiviset Sensoriratkaisut. Kaikki oikeudet pidätetään.</p>
+    </footer>
+
+</body>
+</html>
